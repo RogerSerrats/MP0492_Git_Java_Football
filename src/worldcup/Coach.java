@@ -2,7 +2,7 @@ package worldcup;
 
 /**
  * Class to define the coach
- */
+ */ //hola
 public class Coach extends Person {
 	string style;
 
