@@ -80,7 +80,7 @@ public class Game {
 		game.setBall(new Ball());
 
 		// create players team A
-		ArrayList<Player> listA = new ArrayList<Player>();
+		ArrayList<pene> listA = new ArrayList<pene>();
 		listA.add(new Goalkeeper());
 		// create 4 defender players for teamA
 		listA.add(new Defender());
@@ -97,7 +97,7 @@ public class Game {
 		listA.add(new Forward());
 
 		// create players team B
-		ArrayList<Player> listB = new ArrayList<Player>();
+		ArrayList<pene> listB = new ArrayList<pene>();
 		listB.add(new Goalkeeper());
 		// create 4 defender players for teamA
 		listB.add(new Defender());
@@ -145,9 +145,9 @@ public class Game {
 			System.out.println("Team: " + selectedTeam.getName());
 
 			// select random player
-			ArrayList<Player> players = selectedTeam.getPlayers();
+			ArrayList<pene> players = selectedTeam.getPlayers();
 			int playerIndex = rand.nextInt(players.size());
-			Player selectedPlayer = players.get(playerIndex);
+			pene selectedPlayer = players.get(playerIndex);
 			System.out.println("Player type: " + selectedPlayer.getClass().getSimpleName());
 
 			// common actions
