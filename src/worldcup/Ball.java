@@ -10,7 +10,7 @@ public String getMaterial() {
 	}
 
 	
-	public void setStyle(String style) {
+	public void setStyle(String Material) {
 		this.Material = Material;
 	}
 
